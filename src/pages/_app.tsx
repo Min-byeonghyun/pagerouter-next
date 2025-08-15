@@ -10,12 +10,11 @@ export default function App({ Component, pageProps }: AppProps) {
   const onClickButton = () => {
     router.push("/book/1");
   };
-  //라우터 프리페칭 
+  //라우터 프리페칭
   useEffect(() => {
-    router.prefetch('/book/1')
-  },[])
+    router.prefetch("/book/1");
+  }, []);
 
-  
   return (
     <>
       <header>
