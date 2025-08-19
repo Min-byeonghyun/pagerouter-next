@@ -4,6 +4,7 @@ import { ReactNode } from "react";
 import books from "@/mock/books.json";
 import BookItem from "@/components/book-item";
 
+
 export default function Home() {
   return (
     <div className={style.container}>
