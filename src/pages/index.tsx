@@ -22,7 +22,6 @@ export const getStaticProps = async () => {
   };
 };
 
-
 export default function Home({
   allBooks,
   recoBooks,
